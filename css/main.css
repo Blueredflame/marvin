@@ -1,11 +1,33 @@
 body {
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
 }
-
+main {
+  background-color: red;
+  display: grid;
+  grid-template-columns: ;
+  gap: 1%;
+}
 div {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
+}
+#MARVIN {
+  background-color: red;
+  color: black;
+  display: flex;
+  place-items: baseline;
+}
+#photo {
+  background-color: red;
+  color: black;
+  display: grid;
+  place-items: center;
+}
+#story {
+  background-color: red;
+  color: black;
+  place-items: end;
 }
